@@ -1,0 +1,89 @@
+.propertiesByArea {
+  align-self: stretch;
+  position: relative;
+  line-height: 48px;
+  font-weight: 600;
+}
+.vestibulumAnteIpsum {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--body-large-400-size);
+  line-height: 28px;
+  color: var(--color-lightslategray);
+}
+.description,
+.row1,
+.row2 {
+  align-self: stretch;
+  display: flex;
+}
+.description {
+  flex-direction: column;
+  padding: 0 var(--padding-11xl);
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-5xl);
+}
+.row1,
+.row2 {
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  gap: var(--gap-7xl);
+}
+.row2 {
+  gap: var(--gap-5xl);
+}
+.cardwrapper {
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-5xl);
+  max-width: 1300px;
+}
+.cards,
+.cardwrapper,
+.propertiesByAreaImagesSect {
+  align-self: stretch;
+  flex: 1;
+  display: flex;
+}
+.cards {
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding: 0 var(--padding-3xs);
+  box-sizing: border-box;
+  align-items: flex-start;
+  justify-content: center;
+  max-width: 95%px;
+  text-align: left;
+  font-size: var(--header-heading-4-size);
+  color: var(--gray-white);
+}
+.propertiesByAreaImagesSect {
+  flex-direction: column;
+  padding: var(--padding-34xl) var(--padding-31xl);
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-26xl);
+  text-align: center;
+  font-size: var(--heading-heading-1-size);
+  color: var(--primary-800);
+  font-family: var(--body-regular-600);
+}
+@media screen and (max-width: 1200px) {
+  .row1,
+  .row2 {
+    flex-direction: row;
+  }
+}
+@media screen and (max-width: 960px) {
+  .description {
+    align-self: stretch;
+    width: auto;
+  }
+  .row1,
+  .row2 {
+    flex-direction: column;
+  }
+}

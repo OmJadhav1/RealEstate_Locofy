@@ -1,0 +1,48 @@
+.properties1 {
+  position: relative;
+  line-height: 72px;
+  font-weight: 600;
+}
+.properties2 {
+  font-weight: 500;
+  color: var(--gray-white);
+}
+.homePropertiesContainer {
+  position: relative;
+  font-size: var(--body-regular-400-size);
+  line-height: 24px;
+  color: #e7e9eb;
+  font-family: var(--body-regular-600);
+}
+.properties {
+  align-items: center;
+  justify-content: flex-start;
+  gap: 12px;
+}
+.category,
+.properties,
+.propertiesGridView {
+  display: flex;
+  flex-direction: column;
+}
+.category {
+  align-self: stretch;
+  height: 240px;
+  align-items: center;
+  justify-content: center;
+  background-image: url(/category@3x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+}
+.propertiesGridView {
+  position: relative;
+  background-color: var(--gray-white);
+  width: 100%;
+  align-items: flex-start;
+  justify-content: flex-start;
+  text-align: center;
+  font-size: var(--display-size);
+  color: var(--gray-white);
+  font-family: var(--body-regular-400);
+}

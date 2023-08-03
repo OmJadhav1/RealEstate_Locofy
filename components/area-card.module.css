@@ -1,0 +1,49 @@
+.centerville {
+  position: relative;
+  line-height: 32px;
+  font-weight: 600;
+}
+.listings {
+  position: relative;
+  font-size: var(--body-regular-400-size);
+  line-height: 24px;
+  text-align: center;
+}
+.card1,
+.text {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.text {
+  margin: 0 !important;
+  position: absolute;
+  top: 16px;
+  left: 16px;
+  flex-direction: column;
+  gap: var(--gap-2xs);
+  z-index: 0;
+}
+.card1 {
+  cursor: pointer;
+  text-decoration: none;
+  flex: 1;
+  border-radius: var(--br-5xs);
+  height: 241px;
+  flex-direction: row;
+  position: relative;
+  background-image: url(/card-1@3x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  text-align: left;
+  font-size: var(--header-heading-4-size);
+  color: var(--gray-white);
+  font-family: var(--body-regular-600);
+}
+@media screen and (max-width: 960px) {
+  .card1 {
+    flex: unset;
+    align-self: stretch;
+  }
+}

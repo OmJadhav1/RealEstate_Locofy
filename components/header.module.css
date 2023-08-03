@@ -1,0 +1,123 @@
+.houselineIcon {
+  position: relative;
+  width: 44px;
+  height: 44px;
+}
+.realState,
+.reis {
+  position: relative;
+  line-height: 24px;
+  font-weight: 600;
+}
+.realState {
+  font-size: var(--body-small-400-size);
+  line-height: 16px;
+  font-weight: 500;
+}
+.logo,
+.name {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.logo {
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-5xs);
+}
+.home,
+.properties {
+  position: relative;
+  line-height: 22px;
+}
+.properties {
+  font-weight: 600;
+}
+.navigation {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-11xl);
+}
+.hamburgerMenuIcon {
+  position: relative;
+  width: 24px;
+  height: 24px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.hamburger {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  display: none;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.navigationRight {
+  justify-content: flex-end;
+  gap: var(--gap-17xl);
+  font-size: var(--body-small-400-size);
+  color: var(--primary-900);
+}
+.navigationRight,
+.topContainer,
+.topHeader {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.topContainer {
+  flex: 1;
+  justify-content: space-between;
+}
+.topHeader {
+  align-self: stretch;
+  background-color: var(--gray-white);
+  height: 98px;
+  padding: var(--padding-3xl) var(--padding-61xl);
+  box-sizing: border-box;
+  justify-content: center;
+  position: sticky;
+  width: 100%;
+  top: 0;
+  background: #fff;
+  z-index: 2;
+  text-align: center;
+  font-size: var(--header-heading-4-size);
+  color: var(--primary-500);
+  font-family: var(--body-regular-600);
+}
+@media screen and (max-width: 1200px) {
+  .navigation {
+    display: none;
+  }
+  .hamburger {
+    display: flex;
+  }
+  .topHeader {
+    padding-left: var(--padding-21xl);
+    padding-right: var(--padding-21xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 960px) {
+  .hamburgerMenuIcon {
+    display: flex;
+  }
+  .topHeader {
+    padding-left: var(--padding-5xl);
+    padding-right: var(--padding-5xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 420px) {
+  .navigationRight {
+    display: flex;
+  }
+}

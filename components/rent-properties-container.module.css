@@ -1,0 +1,93 @@
+.latestPropertiesOf {
+  align-self: stretch;
+  position: relative;
+  line-height: 48px;
+  font-weight: 600;
+}
+.vestibulumAnteIpsum {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--body-large-400-size);
+  line-height: 28px;
+  color: var(--color-lightslategray);
+}
+.cardsRow,
+.contents,
+.text {
+  display: flex;
+  align-items: center;
+}
+.text {
+  width: 688px;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: var(--gap-5xl);
+  max-width: 95%px;
+}
+.cardsRow,
+.contents {
+  align-self: stretch;
+}
+.cardsRow {
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding: 0 var(--padding-3xs);
+  justify-content: center;
+  gap: var(--gap-13xl);
+}
+.contents {
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: var(--gap-21xl);
+  max-width: 95%px;
+}
+.loadMoreListing {
+  position: relative;
+  font-size: var(--body-regular-400-size);
+  line-height: 24px;
+  font-weight: 500;
+  font-family: var(--body-regular-600);
+  color: var(--gray-white);
+  text-align: center;
+}
+.cta,
+.latestPropertiesOfRentCard {
+  display: flex;
+  justify-content: flex-start;
+}
+.cta {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-xs) var(--padding-5xl);
+  background-color: var(--primary-500);
+  border-radius: var(--br-9xs);
+  flex-direction: row;
+  align-items: flex-start;
+}
+.latestPropertiesOfRentCard {
+  align-self: stretch;
+  flex-direction: column;
+  padding: var(--padding-67xl) 0;
+  align-items: center;
+  gap: var(--gap-20xl);
+  text-align: center;
+  font-size: var(--heading-heading-1-size);
+  color: var(--primary-800);
+  font-family: var(--body-regular-600);
+}
+@media screen and (max-width: 1200px) {
+  .text {
+    max-width: 95%;
+  }
+}
+@media screen and (max-width: 960px) {
+  .text {
+    align-self: stretch;
+    width: auto;
+  }
+  .contents {
+    padding-left: var(--padding-41xl);
+    padding-right: var(--padding-41xl);
+    box-sizing: border-box;
+  }
+}

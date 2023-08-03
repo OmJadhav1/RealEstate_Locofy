@@ -1,0 +1,113 @@
+.listbulletsIcon {
+  position: relative;
+  width: 24px;
+  height: 24px;
+}
+.options {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+}
+.text {
+  position: relative;
+  line-height: 24px;
+}
+.sortBy {
+  align-items: flex-end;
+  gap: var(--gap-base);
+}
+.backArrow,
+.container,
+.sortBy {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.container {
+  width: 272px;
+  align-items: center;
+}
+.backArrow {
+  border-radius: var(--br-9xs);
+  background-color: var(--primary-50);
+  padding: var(--padding-3xs);
+  align-items: flex-start;
+}
+.div1 {
+  position: relative;
+  line-height: 24px;
+  font-weight: 600;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  width: 26px;
+}
+.div,
+.div2,
+.forwardArrow {
+  border-radius: var(--br-10xs);
+  display: flex;
+  flex-direction: column;
+  padding: var(--padding-3xs) var(--padding-4xs);
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.div {
+  background-color: var(--primary-500);
+  color: var(--gray-white);
+}
+.div2,
+.forwardArrow {
+  background-color: var(--primary-50);
+}
+.forwardArrow {
+  border-radius: var(--br-9xs);
+  background-color: var(--primary-500);
+  flex-direction: row;
+  padding: var(--padding-3xs);
+}
+.contents,
+.pagination {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: center;
+  gap: var(--gap-5xs);
+  text-align: center;
+  color: var(--primary-500);
+}
+.contents {
+  align-self: stretch;
+  flex-direction: column;
+  padding: var(--padding-45xl) 0 var(--padding-5xs);
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-76xl);
+  text-align: left;
+  font-size: var(--body-regular-400-size);
+  color: var(--gray-black);
+  font-family: var(--body-regular-600);
+}
+@media screen and (max-width: 1200px) {
+  .contents {
+    padding-left: var(--padding-101xl);
+    padding-right: var(--padding-101xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 960px) {
+  .contents {
+    padding-left: var(--padding-41xl);
+    padding-right: var(--padding-41xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 420px) {
+  .contents {
+    padding-left: var(--padding-xl);
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+}

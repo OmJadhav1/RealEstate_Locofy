@@ -1,0 +1,19 @@
+.cards,
+.cardwrapper {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: center;
+}
+.cards {
+  flex: 1;
+  gap: var(--gap-5xs);
+}
+.cardwrapper {
+  align-self: stretch;
+  text-align: left;
+  font-size: 14.51px;
+  color: var(--gray-700);
+  font-family: var(--body-regular-600);
+}

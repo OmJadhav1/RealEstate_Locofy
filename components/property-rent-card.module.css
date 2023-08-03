@@ -1,0 +1,46 @@
+.mappinIcon {
+  position: relative;
+  width: 24px;
+  height: 24px;
+}
+.washington {
+  position: relative;
+  line-height: 24px;
+  font-weight: 500;
+}
+.details,
+.location {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  gap: var(--gap-5xs);
+}
+.details {
+  align-self: stretch;
+  height: 24px;
+  align-items: flex-end;
+  justify-content: center;
+  gap: var(--gap-13xl);
+}
+.card1 {
+  flex: 1;
+  border-radius: var(--br-7xs);
+  height: 426px;
+  display: flex;
+  flex-direction: column;
+  padding: var(--padding-5xl);
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: flex-end;
+  background-image: url(/card-11@3x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  min-width: 355px;
+  max-width: 370px;
+  text-align: left;
+  font-size: var(--body-regular-400-size);
+  color: var(--gray-white);
+  font-family: var(--body-regular-600);
+}

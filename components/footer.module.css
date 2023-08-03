@@ -1,0 +1,191 @@
+.houselineIcon {
+  position: relative;
+  width: 44px;
+  height: 44px;
+}
+.realState,
+.reis {
+  position: relative;
+  line-height: 24px;
+  font-weight: 600;
+}
+.realState {
+  font-size: var(--body-small-400-size);
+  line-height: 16px;
+  font-weight: 500;
+}
+.logo,
+.reisParent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.logo {
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-5xs);
+}
+.contactUs1 {
+  position: relative;
+  font-size: var(--header-heading-4-size);
+  line-height: 32px;
+  font-weight: 600;
+  color: var(--gray-black);
+}
+.praesentNullaMassa {
+  position: relative;
+  line-height: 24px;
+  display: flex;
+  align-items: flex-end;
+  width: 312px;
+}
+.emailExamplemailcom {
+  position: relative;
+  line-height: 24px;
+  color: var(--gray-700);
+}
+.contactDetails {
+  align-self: stretch;
+  height: 168px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-smi);
+  text-align: left;
+  font-size: var(--body-regular-400-size);
+  color: var(--gray-500);
+  font-family: var(--body-regular-400);
+}
+.socialMediaLogo {
+  position: relative;
+  width: 20px;
+  height: 21.67px;
+}
+.socialMediaCard {
+  border-radius: var(--br-9xs);
+  background-color: var(--primary-50);
+  display: flex;
+  flex-direction: column;
+  padding: var(--padding-sm);
+  align-items: center;
+  justify-content: center;
+}
+.socialMediaLogo1 {
+  position: relative;
+  width: 20px;
+  height: 20px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.contactUs,
+.socialMedia {
+  width: 304px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.contactUs {
+  width: 312px;
+  height: 300px;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-xl);
+  text-align: center;
+  color: var(--primary-500);
+  font-family: var(--body-regular-600);
+}
+.home {
+  position: relative;
+  line-height: 24px;
+}
+.features,
+.featuresSubCategories {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.featuresSubCategories {
+  align-self: stretch;
+  height: 184px;
+  gap: var(--gap-base);
+  font-size: var(--body-regular-400-size);
+  color: var(--gray-500);
+}
+.features {
+  width: 173px;
+  height: 248px;
+  gap: var(--gap-13xl);
+}
+.teamAndPolicies {
+  position: relative;
+  line-height: 32px;
+  font-weight: 600;
+}
+.termsAndPolicies,
+.termsAndPoliciesSubcategori {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.termsAndPoliciesSubcategori {
+  align-self: stretch;
+  height: 104px;
+  gap: var(--gap-base);
+  font-size: var(--body-regular-400-size);
+  color: var(--gray-500);
+}
+.termsAndPolicies {
+  width: 203px;
+  height: 168px;
+  gap: var(--gap-13xl);
+}
+.footer,
+.footerSection {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+.footer {
+  flex: 1;
+  justify-content: space-between;
+  text-align: left;
+  font-size: var(--header-heading-4-size);
+  color: var(--gray-black);
+  font-family: var(--body-regular-400);
+}
+.footerSection {
+  align-self: stretch;
+  overflow: hidden;
+  padding: var(--padding-31xl);
+  justify-content: flex-start;
+}
+@media screen and (max-width: 960px) {
+  .footer {
+    flex-direction: column;
+    gap: var(--gap-31xl);
+  }
+  .footerSection {
+    align-self: stretch;
+    width: auto;
+    flex-direction: row;
+    gap: var(--gap-0);
+  }
+}
+@media screen and (max-width: 420px) {
+  .footer {
+    gap: var(--gap-31xl);
+    flex: unset;
+    align-self: stretch;
+  }
+  .footer,
+  .footerSection {
+    flex-direction: column;
+  }
+}

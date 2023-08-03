@@ -1,0 +1,189 @@
+.contactUs,
+.vestibulumAnteIpsum {
+  align-self: stretch;
+  position: relative;
+}
+.contactUs {
+  line-height: 48px;
+  font-weight: 600;
+}
+.vestibulumAnteIpsum {
+  font-size: var(--body-large-400-size);
+  line-height: 28px;
+  color: var(--color-lightslategray);
+}
+.text {
+  width: 688px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-5xl);
+  max-width: 95%px;
+}
+.areYouLooking,
+.enquiryForm {
+  align-self: stretch;
+  position: relative;
+  line-height: 36px;
+}
+.areYouLooking {
+  font-size: var(--font-size-lg);
+  line-height: 30px;
+  font-family: var(--font-roboto);
+  color: var(--color-slategray);
+}
+.formText {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-7xs);
+}
+.input,
+.input1 {
+  border: 1px solid var(--color-gray-100);
+  font-family: var(--font-roboto);
+  font-size: var(--body-regular-400-size);
+  background-color: transparent;
+  flex: 1;
+  border-radius: var(--br-9xs);
+  flex-direction: column;
+  padding: var(--padding-base) var(--padding-xs);
+}
+.input {
+  align-self: stretch;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.input1 {
+  justify-content: center;
+}
+.destinationNameInput,
+.input1,
+.inputRow {
+  align-self: stretch;
+  display: flex;
+  align-items: flex-start;
+}
+.inputRow {
+  flex-direction: row;
+  justify-content: center;
+  gap: var(--gap-3xs);
+}
+.destinationNameInput {
+  border: 1px solid var(--color-gray-100);
+  background-color: transparent;
+  border-radius: var(--br-9xs);
+  flex-direction: column;
+  padding: var(--padding-base) var(--padding-xs);
+  justify-content: flex-start;
+}
+.destinationNameInput,
+.input2,
+.submit {
+  font-size: var(--body-regular-400-size);
+  font-family: var(--font-roboto);
+}
+.input2 {
+  border: 1px solid var(--color-gray-100);
+  background-color: transparent;
+  height: 105px;
+  align-self: stretch;
+  border-radius: var(--br-9xs);
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  padding: var(--padding-xs);
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.submit {
+  position: relative;
+  color: var(--gray-white);
+  text-align: center;
+  display: inline-block;
+  width: 203.12px;
+}
+.formSubmitButton {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: var(--primary-500);
+  border-radius: var(--br-9xs);
+  width: 222px;
+  height: 46px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.formFields {
+  align-self: stretch;
+  gap: var(--gap-3xs);
+}
+.contents,
+.form,
+.formFields {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+.form {
+  align-self: stretch;
+  border-radius: var(--br-xs);
+  background-color: var(--gray-white);
+  box-shadow: 0 0 24px rgba(0, 0, 0, 0.03);
+  padding: var(--padding-9xl) var(--padding-11xl);
+  gap: var(--gap-mid);
+  text-align: left;
+  font-size: var(--header-heading-4-size);
+  color: var(--color-darkslategray-100);
+  font-family: var(--font-poppins);
+}
+.contents {
+  flex: 1;
+  padding: 0 var(--padding-3xs);
+  box-sizing: border-box;
+  gap: var(--gap-21xl);
+  max-width: 900px;
+}
+.latestPropertiesOfRentCard {
+  align-self: stretch;
+  background-color: var(--primary-50);
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding: var(--padding-67xl) var(--padding-8xs);
+  align-items: flex-start;
+  justify-content: center;
+  text-align: center;
+  font-size: var(--heading-heading-1-size);
+  color: var(--primary-800);
+  font-family: var(--body-regular-600);
+}
+@media screen and (max-width: 1200px) {
+  .text {
+    max-width: 95%;
+  }
+}
+@media screen and (max-width: 960px) {
+  .text {
+    align-self: stretch;
+    width: auto;
+  }
+  .input,
+  .input1 {
+    flex: unset;
+    align-self: stretch;
+  }
+  .inputRow {
+    flex-direction: column;
+    gap: var(--gap-3xs);
+    align-items: flex-start;
+    justify-content: center;
+  }
+}
